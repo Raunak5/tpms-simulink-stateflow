@@ -1,0 +1,17 @@
+for fast response
+
+P_initial = 32;
+P_atm = 14.7;
+C_leak = 0.05;         
+
+
+P_warn = 30;           
+P_critical = 25; 
+dPdt_slow = -0.02;
+dPdt_fast = -0.05;
+epsilon = 0.0001;
+
+Stop Time = 100
+
+
+give this in command line (i did not create the matlab script)

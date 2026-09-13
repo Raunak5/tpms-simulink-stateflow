@@ -1,0 +1,24 @@
+for slow response
+
+% ========================================
+% TPMS Plant Model - All Parameters
+% ========================================
+
+% Part 1 - Tire Pressure Dynamics
+P_initial = 32;       
+P_atm = 14.7;         
+C_leak = 0.001;        
+
+% Part 2 - Signal Processing Thresholds
+P_warn = 26;           
+P_critical = 20;       
+dPdt_slow = -0.02;     
+dPdt_fast = -0.05;    
+
+% Part 3 - Time-to-Flat Protection
+epsilon = 0.0001;      
+% ========================================
+% Simulation Settings
+% ========================================
+% Set Stop Time in Simulink toolbar to 5000
+% for slow leak scenario (C_leak = 0.001)
