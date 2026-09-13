@@ -1,0 +1,5 @@
+# MATLAB & Simulink caches and autosaves
+*.slxc
+*.asv
+slprj/
+slcov_output/
